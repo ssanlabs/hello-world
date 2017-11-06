@@ -1,4 +1,4 @@
-#include"stdio.h"
+#include<stdio.h>
 int main(void)
 {
     float x,*p;
@@ -7,4 +7,6 @@ int main(void)
     scanf("%f",p);
     printf("printing value and address using pointer x=%f,address=%p\n",*p,p
     printf("Happy ending");
+	printf("\n");
+	return 0;
 }
