@@ -5,5 +5,6 @@ int main(void)
     p=&x;
     printf("Enter the value:\n");
     scanf("%f",p);
-    printf("printing value and address using pointer x=%f,address=%p\n",*p,p);
+    printf("printing value and address using pointer x=%f,address=%p\n",*p,p
+    printf("Happy ending");
 }
